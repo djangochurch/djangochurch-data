@@ -1,0 +1,71 @@
+[
+{
+    "model": "assets.imagecategory",
+    "fields": {
+        "title": "News images"
+    },
+    "pk": 1
+},
+{
+    "model": "assets.imagecategory",
+    "fields": {
+        "title": "Events"
+    },
+    "pk": 2
+},
+{
+    "model": "assets.image",
+    "fields": {
+        "image_height": 362,
+        "category": 2,
+        "file": "",
+        "title": "Remembrance",
+        "image_width": 644
+    },
+    "pk": 1
+},
+{
+    "model": "assets.image",
+    "fields": {
+        "image_height": 353,
+        "category": 1,
+        "file": "",
+        "title": "Sample image 1",
+        "image_width": 644
+    },
+    "pk": 2
+},
+{
+    "model": "assets.image",
+    "fields": {
+        "image_height": 353,
+        "category": 1,
+        "file": "",
+        "title": "Sample image 2",
+        "image_width": 644
+    },
+    "pk": 3
+},
+{
+    "model": "assets.image",
+    "fields": {
+        "image_height": 353,
+        "category": 1,
+        "file": "",
+        "title": "Sample image 3",
+        "image_width": 644
+    },
+    "pk": 4
+},
+{
+    "model": "assets.image",
+    "fields": {
+        "image_height": 353,
+        "category": 1,
+        "file": "",
+        "title": "Sample image 4",
+        "image_width": 644
+    },
+    "pk": 5
+}
+]

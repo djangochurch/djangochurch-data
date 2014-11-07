@@ -1,0 +1,90 @@
+[
+{
+    "pk": 1,
+    "fields": {
+        "title": "Praise party",
+        "start": "2015-11-01T11:00:00Z",
+        "end_date": "2015-11-01",
+        "end": "2015-11-01T12:00:00Z",
+        "slug": "praise-party",
+        "start_date": "2015-11-01",
+        "description": "<p>Space for a longer description where you might explain a little more about the event, who's welcome, where and when it is, who's holding it, who to contact if someone has questions.</p>",
+        "summary": "A celebration in worship",
+        "published": true,
+        "image": 5
+    },
+    "model": "events.specialevent"
+},
+{
+    "pk": 1,
+    "fields": {
+        "title": "Sunday Service",
+        "day_of_the_week": 0,
+        "frequency": "",
+        "description": "<p>Our main service</p>",
+        "time": "10:00:00",
+        "published": true
+    },
+    "model": "events.recurringevent"
+},
+{
+    "pk": 2,
+    "fields": {
+        "title": "Band practice",
+        "day_of_the_week": 3,
+        "frequency": "once a month",
+        "description": " ",
+        "time": "19:00:00",
+        "published": true
+    },
+    "model": "events.recurringevent"
+},
+{
+    "pk": 3,
+    "fields": {
+        "title": "Youth",
+        "day_of_the_week": 5,
+        "frequency": "",
+        "description": "<p>11-16s only <a href=\"/\">More</a></p>",
+        "time": "19:30:00",
+        "published": true
+    },
+    "model": "events.recurringevent"
+},
+{
+    "pk": 4,
+    "fields": {
+        "title": "Parent Caf\u00e9",
+        "day_of_the_week": 2,
+        "frequency": "fortnightly",
+        "description": "<p>For ages 0 - 2yrs</p>",
+        "time": "14:00:00",
+        "published": true
+    },
+    "model": "events.recurringevent"
+},
+{
+    "pk": 5,
+    "fields": {
+        "title": "Evening Service",
+        "day_of_the_week": 0,
+        "frequency": "every other week",
+        "description": "<p>More relaxed style</p>",
+        "time": "19:30:00",
+        "published": true
+    },
+    "model": "events.recurringevent"
+},
+{
+    "pk": 6,
+    "fields": {
+        "title": "Team meeting",
+        "day_of_the_week": 1,
+        "frequency": "every week",
+        "description": "<p>All welcome</p>",
+        "time": "10:00:00",
+        "published": true
+    },
+    "model": "events.recurringevent"
+}
+]

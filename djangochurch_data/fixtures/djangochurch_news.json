@@ -1,0 +1,71 @@
+[
+{
+    "model": "news.category",
+    "fields": {
+        "title": "General news",
+        "slug": "general"
+    },
+    "pk": 1
+},
+{
+    "model": "news.category",
+    "fields": {
+        "title": "Family news",
+        "slug": "family"
+    },
+    "pk": 2
+},
+{
+    "model": "news.category",
+    "fields": {
+        "title": "From the Vicar",
+        "slug": "vicar"
+    },
+    "pk": 3
+},
+{
+    "model": "news.post",
+    "fields": {
+        "content": "<h1>Here's a headline about this story!</h1><h2>There's lots of paragraph styles you can apply to you text. It's worth using them as it breaks up the story into manageable chunks for people to easily digest. Here's a YouTube video&hellip;</h2><iframe width=\"560\" height=\"315\" src=\"//www.youtube.com/embed/MO5h-4kd28Q\" frameborder=\"0\" allowfullscreen=\"\"></iframe><p>That was nice, wasn't it. Adding images and, where available, video, about your story, adds real engagement&nbsp;value to your content. You can also add bulleted lists to your content, like this.</p><ul><li>List point one</li><li>List point two</li><li>List point three</li></ul><p>There's always three points, aren't there!</p>",
+        "image": 2,
+        "date": "2014-11-05T12:00:00Z",
+        "title": "Our last family event was brilliant!",
+        "teaser": "The teaser field should consist of a few words, describing what people will see if they click through to the news story its self. Being short and concise is really important.",
+        "category": 2,
+        "published": true,
+        "date_url": "2014-11-05",
+        "slug": "our-last-family-event-was-brilliant"
+    },
+    "pk": 1
+},
+{
+    "model": "news.post",
+    "fields": {
+        "content": "<h1>Here's a headline about this story!</h1>\r\n<h2>There's lots of paragraph styles you can apply to you text. It's worth using them as it breaks up the story into manageable chunks for people to easily digest. Here's a YouTube video&hellip;</h2>\r\n<iframe width=\"560\" height=\"315\" src=\"//www.youtube.com/embed/MO5h-4kd28Q\" frameborder=\"0\" allowfullscreen=\"\">\r\n</iframe>\r\n<p>\r\n\tThat was nice, wasn't it. Adding images and, where available, video, about your story, adds real engagement&nbsp;value to your content. You can also add bulleted lists to your content, like this.\r\n</p>\r\n<ul>\r\n\t<li>List point one</li>\r\n\t<li>List point two</li>\r\n\t<li>List point three</li>\r\n</ul>\r\n<p>\r\n\tThere's always three points, aren't there!\r\n</p>",
+        "image": 3,
+        "date": "2014-11-05T13:00:00Z",
+        "title": "Prayer update",
+        "teaser": "The teaser field should consist of a few words, describing what people will see if they click through to the news story its self. Being short and concise is really important.",
+        "category": 3,
+        "published": true,
+        "date_url": "2014-11-05",
+        "slug": "prayer-update"
+    },
+    "pk": 2
+},
+{
+    "model": "news.post",
+    "fields": {
+        "content": "<h1>Here's a headline about this story!</h1>\r\n<h2>There's lots of paragraph styles you can apply to you text. It's worth using them as it breaks up the story into manageable chunks for people to easily digest. Here's a YouTube video&hellip;</h2>\r\n<iframe width=\"560\" height=\"315\" src=\"//www.youtube.com/embed/MO5h-4kd28Q\" frameborder=\"0\" allowfullscreen=\"\">\r\n</iframe>\r\n<p>\r\n\tThat was nice, wasn't it. Adding images and, where available, video, about your story, adds real engagement&nbsp;value to your content. You can also add bulleted lists to your content, like this.\r\n</p>\r\n<ul>\r\n\t<li>List point one</li>\r\n\t<li>List point two</li>\r\n\t<li>List point three</li>\r\n</ul>\r\n<p>\r\n\tThere's always three points, aren't there!\r\n</p>",
+        "image": 4,
+        "date": "2014-11-05T14:00:00Z",
+        "title": "Newsletter: Sunday 26 October",
+        "teaser": "The teaser field should consist of a few words, describing what people will see if they click through to the news story its self. Being short and concise is really important.",
+        "category": 1,
+        "published": true,
+        "date_url": "2014-11-05",
+        "slug": "newsletter-sunday-26-october"
+    },
+    "pk": 3
+}
+]
