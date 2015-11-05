@@ -8,8 +8,8 @@ setup(
     description='Initial data for Django Church projects',
     long_description=open('README.rst').read(),
     url='https://github.com/djangochurch/djangochurch-data',
-    maintainer='Alex Tomkins',
-    maintainer_email='alex@blanc.ltd.uk',
+    maintainer='Blanc Ltd',
+    maintainer_email='studio@blanc.ltd.uk',
     platforms=['any'],
     packages=find_packages(),
     package_data={'djangochurch_data': [
@@ -25,6 +25,8 @@ setup(
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.3',
+        'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: 3.5',
     ],
     license='BSD',
 )
