@@ -1,8 +1,9 @@
+import os.path
+
 from blanc_basic_assets.models import Image
+from django.apps import apps
 from django.core.files import File
 from django.core.management.base import BaseCommand
-from django.apps import apps
-import os.path
 
 
 IMAGE_LIST = [
