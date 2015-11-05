@@ -15,10 +15,10 @@ Install the package with pip_::
 
 Add ``djangochurch_data`` to ``INSTALLED_APPS``::
 
-    INSTALLED_APPS = (
+    INSTALLED_APPS = [
         ...
         'djangochurch_data',
-    )
+    ]
 
 Run the following commands::
 
