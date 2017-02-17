@@ -11,11 +11,8 @@ setup(
     maintainer='Blanc Ltd',
     maintainer_email='studio@blanc.ltd.uk',
     platforms=['any'],
+    include_package_data=True,
     packages=find_packages(),
-    package_data={'djangochurch_data': [
-        'fixtures/*.json',
-        'images/*.jpg',
-    ]},
     classifiers=[
         'Environment :: Web Environment',
         'Framework :: Django',
