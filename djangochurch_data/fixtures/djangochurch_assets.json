@@ -18,7 +18,7 @@
     "fields": {
         "image_height": 362,
         "category": 2,
-        "file": "",
+        "file": "assets/image/remember.jpg",
         "title": "Remembrance",
         "image_width": 644
     },
@@ -29,7 +29,7 @@
     "fields": {
         "image_height": 353,
         "category": 1,
-        "file": "",
+        "file": "assets/image/sample-image-1.jpg",
         "title": "Sample image 1",
         "image_width": 644
     },
@@ -40,7 +40,7 @@
     "fields": {
         "image_height": 353,
         "category": 1,
-        "file": "",
+        "file": "assets/image/sample-image-2.jpg",
         "title": "Sample image 2",
         "image_width": 644
     },
@@ -51,7 +51,7 @@
     "fields": {
         "image_height": 353,
         "category": 1,
-        "file": "",
+        "file": "assets/image/sample-image-3.jpg",
         "title": "Sample image 3",
         "image_width": 644
     },
@@ -62,7 +62,7 @@
     "fields": {
         "image_height": 353,
         "category": 1,
-        "file": "",
+        "file": "assets/image/sample-image-4.jpg",
         "title": "Sample image 4",
         "image_width": 644
     },
