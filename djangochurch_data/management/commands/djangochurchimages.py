@@ -19,7 +19,8 @@ class Command(BaseCommand):
     help = 'Load Django Church images'
 
     def handle(self, directory=None, *args, **options):
-        image_dir = os.path.join(apps.get_app_path('djangochurch_data'), 'images')
+        data_app = apps.get_app_config('djangochurch_data')
+        image_dir = os.path.join(data_app.path, 'images')
 
         for image_id, image_name in IMAGE_LIST:
             self.stdout.write('Importing: %s' % (image_name,))
