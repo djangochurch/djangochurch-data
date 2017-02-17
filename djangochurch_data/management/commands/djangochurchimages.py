@@ -29,4 +29,4 @@ class Command(BaseCommand):
             image_file = os.path.join(image_dir, image_name)
 
             with open(image_file, 'rb') as f:
-                image.file.save(image_name, File(f))
+                image.file.save(image_name, File(f), save=False)
